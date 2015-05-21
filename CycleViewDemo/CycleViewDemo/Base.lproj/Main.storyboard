@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="CycleViewDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wPK-ew-Ivl">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="400"/>
+                                <connections>
+                                    <segue destination="WPv-7C-EEz" kind="embed" id="MfB-QM-qtw"/>
+                                </connections>
+                            </containerView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="wPK-ew-Ivl" secondAttribute="bottom" constant="200" id="BEp-XE-3J0"/>
+                            <constraint firstItem="wPK-ew-Ivl" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="acg-ZR-OFb"/>
+                            <constraint firstAttribute="trailing" secondItem="wPK-ew-Ivl" secondAttribute="trailing" id="di0-Zi-eH3"/>
+                            <constraint firstItem="wPK-ew-Ivl" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="noh-qg-LF5"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+        <!--Picture View Controller-->
+        <scene sceneID="qZC-yX-5Ta">
+            <objects>
+                <viewController id="WPv-7C-EEz" customClass="PictureViewController" customModule="CycleViewDemo" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="UFl-uk-xEg"/>
+                        <viewControllerLayoutGuide type="bottom" id="wd7-43-v7e"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="MIh-U2-bl9">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="400"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="te9-1T-DzW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="706" y="127"/>
+        </scene>
+    </scenes>
+</document>
