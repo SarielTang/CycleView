@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.version      = "1.0.0"
   s.summary      = "Simple QRCode detector and generator in Swift"
   s.homepage     = "https://github.com/SarielTang/CycleView"
-#  s.license      = "MIT"
+  s.license      = "MIT"
   s.author             = { "Sariel Tang" => "524896762@qq.com" }
   s.platform     = :ios, "8.3"
   s.source       = { :git => "https://github.com/SarielTang/CycleView.git", :tag => s.version }
