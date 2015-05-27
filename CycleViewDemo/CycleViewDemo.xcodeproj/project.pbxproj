@@ -23,6 +23,7 @@
 		04A47DD01B0A1C0F00CD74C2 /* 08.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04A47DC61B0A1C0F00CD74C2 /* 08.jpg */; };
 		04A47DD11B0A1C0F00CD74C2 /* 09.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04A47DC71B0A1C0F00CD74C2 /* 09.jpg */; };
 		04A47DD21B0A1C0F00CD74C2 /* 10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04A47DC81B0A1C0F00CD74C2 /* 10.jpg */; };
+		7677356B1B154E71005B60C6 /* AnimatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7677356A1B154E71005B60C6 /* AnimatorViewController.swift */; };
 		76B220401B0CB6A9007F667C /* PictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B2203F1B0CB6A9007F667C /* PictureViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +58,7 @@
 		04A47DC61B0A1C0F00CD74C2 /* 08.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 08.jpg; sourceTree = "<group>"; };
 		04A47DC71B0A1C0F00CD74C2 /* 09.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 09.jpg; sourceTree = "<group>"; };
 		04A47DC81B0A1C0F00CD74C2 /* 10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.jpg; sourceTree = "<group>"; };
+		7677356A1B154E71005B60C6 /* AnimatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatorViewController.swift; sourceTree = "<group>"; };
 		76B2203F1B0CB6A9007F667C /* PictureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PictureViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -102,6 +104,7 @@
 				04A47D4B1B0A141700CD74C2 /* AppDelegate.swift */,
 				04A47D4D1B0A141700CD74C2 /* ViewController.swift */,
 				04A47D4F1B0A141700CD74C2 /* Main.storyboard */,
+				7677356A1B154E71005B60C6 /* AnimatorViewController.swift */,
 				76B2203F1B0CB6A9007F667C /* PictureViewController.swift */,
 				04A47D521B0A141700CD74C2 /* Images.xcassets */,
 				04A47D541B0A141700CD74C2 /* LaunchScreen.xib */,
@@ -264,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				76B220401B0CB6A9007F667C /* PictureViewController.swift in Sources */,
+				7677356B1B154E71005B60C6 /* AnimatorViewController.swift in Sources */,
 				04A47D4E1B0A141700CD74C2 /* ViewController.swift in Sources */,
 				04A47D4C1B0A141700CD74C2 /* AppDelegate.swift in Sources */,
 			);

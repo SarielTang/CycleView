@@ -10,6 +10,7 @@
 		04A47DA11B0A145100CD74C2 /* CycleView.h in Headers */ = {isa = PBXBuildFile; fileRef = 04A47DA01B0A145100CD74C2 /* CycleView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		04A47DA71B0A145100CD74C2 /* CycleView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A47D9B1B0A145100CD74C2 /* CycleView.framework */; };
 		04A47DAE1B0A145100CD74C2 /* CycleViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A47DAD1B0A145100CD74C2 /* CycleViewTests.swift */; };
+		765B028A1B149CF1006DD4D5 /* CycleAnimatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765B02891B149CF1006DD4D5 /* CycleAnimatorViewController.swift */; };
 		76B2203E1B0CAE35007F667C /* PictureCycleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B2203D1B0CAE35007F667C /* PictureCycleController.swift */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +31,7 @@
 		04A47DA61B0A145100CD74C2 /* CycleViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CycleViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04A47DAC1B0A145100CD74C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04A47DAD1B0A145100CD74C2 /* CycleViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CycleViewTests.swift; sourceTree = "<group>"; };
+		765B02891B149CF1006DD4D5 /* CycleAnimatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CycleAnimatorViewController.swift; sourceTree = "<group>"; };
 		76B2203D1B0CAE35007F667C /* PictureCycleController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PictureCycleController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -109,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				76B2203D1B0CAE35007F667C /* PictureCycleController.swift */,
+				765B02891B149CF1006DD4D5 /* CycleAnimatorViewController.swift */,
 			);
 			path = Source;
 			sourceTree = SOURCE_ROOT;
@@ -220,6 +223,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				765B028A1B149CF1006DD4D5 /* CycleAnimatorViewController.swift in Sources */,
 				76B2203E1B0CAE35007F667C /* PictureCycleController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
