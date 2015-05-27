@@ -20,7 +20,7 @@ class PictureViewController: PictureCycleController {
         super.viewDidLoad()
         var arrayM = [UIImage]()
         
-        for var i = 0; i < 10; ++i {
+        for var i = 0; i < 16; ++i {
             let imageName = String(format: "%02d.jpg", i + 1)
             arrayM.append(UIImage(named: imageName)!)
 //            println(arrayM)

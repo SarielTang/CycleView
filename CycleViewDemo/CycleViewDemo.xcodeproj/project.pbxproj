@@ -13,16 +13,6 @@
 		04A47D531B0A141700CD74C2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04A47D521B0A141700CD74C2 /* Images.xcassets */; };
 		04A47D561B0A141700CD74C2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04A47D541B0A141700CD74C2 /* LaunchScreen.xib */; };
 		04A47D621B0A141700CD74C2 /* CycleViewDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A47D611B0A141700CD74C2 /* CycleViewDemoTests.swift */; };
-		04A47DC91B0A1C0F00CD74C2 /* 01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04A47DBF1B0A1C0F00CD74C2 /* 01.jpg */; };
-		04A47DCA1B0A1C0F00CD74C2 /* 02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04A47DC01B0A1C0F00CD74C2 /* 02.jpg */; };
-		04A47DCB1B0A1C0F00CD74C2 /* 03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04A47DC11B0A1C0F00CD74C2 /* 03.jpg */; };
-		04A47DCC1B0A1C0F00CD74C2 /* 04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04A47DC21B0A1C0F00CD74C2 /* 04.jpg */; };
-		04A47DCD1B0A1C0F00CD74C2 /* 05.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04A47DC31B0A1C0F00CD74C2 /* 05.jpg */; };
-		04A47DCE1B0A1C0F00CD74C2 /* 06.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04A47DC41B0A1C0F00CD74C2 /* 06.jpg */; };
-		04A47DCF1B0A1C0F00CD74C2 /* 07.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04A47DC51B0A1C0F00CD74C2 /* 07.jpg */; };
-		04A47DD01B0A1C0F00CD74C2 /* 08.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04A47DC61B0A1C0F00CD74C2 /* 08.jpg */; };
-		04A47DD11B0A1C0F00CD74C2 /* 09.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04A47DC71B0A1C0F00CD74C2 /* 09.jpg */; };
-		04A47DD21B0A1C0F00CD74C2 /* 10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04A47DC81B0A1C0F00CD74C2 /* 10.jpg */; };
 		7677356B1B154E71005B60C6 /* AnimatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7677356A1B154E71005B60C6 /* AnimatorViewController.swift */; };
 		76B220401B0CB6A9007F667C /* PictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B2203F1B0CB6A9007F667C /* PictureViewController.swift */; };
 /* End PBXBuildFile section */
@@ -48,16 +38,6 @@
 		04A47D5B1B0A141700CD74C2 /* CycleViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CycleViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04A47D601B0A141700CD74C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04A47D611B0A141700CD74C2 /* CycleViewDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CycleViewDemoTests.swift; sourceTree = "<group>"; };
-		04A47DBF1B0A1C0F00CD74C2 /* 01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 01.jpg; sourceTree = "<group>"; };
-		04A47DC01B0A1C0F00CD74C2 /* 02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 02.jpg; sourceTree = "<group>"; };
-		04A47DC11B0A1C0F00CD74C2 /* 03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 03.jpg; sourceTree = "<group>"; };
-		04A47DC21B0A1C0F00CD74C2 /* 04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 04.jpg; sourceTree = "<group>"; };
-		04A47DC31B0A1C0F00CD74C2 /* 05.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 05.jpg; sourceTree = "<group>"; };
-		04A47DC41B0A1C0F00CD74C2 /* 06.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 06.jpg; sourceTree = "<group>"; };
-		04A47DC51B0A1C0F00CD74C2 /* 07.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 07.jpg; sourceTree = "<group>"; };
-		04A47DC61B0A1C0F00CD74C2 /* 08.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 08.jpg; sourceTree = "<group>"; };
-		04A47DC71B0A1C0F00CD74C2 /* 09.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 09.jpg; sourceTree = "<group>"; };
-		04A47DC81B0A1C0F00CD74C2 /* 10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.jpg; sourceTree = "<group>"; };
 		7677356A1B154E71005B60C6 /* AnimatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatorViewController.swift; sourceTree = "<group>"; };
 		76B2203F1B0CB6A9007F667C /* PictureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PictureViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -116,7 +96,6 @@
 		04A47D491B0A141700CD74C2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				04A47DBE1B0A1C0F00CD74C2 /* images */,
 				04A47D4A1B0A141700CD74C2 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -137,23 +116,6 @@
 				04A47D601B0A141700CD74C2 /* Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		04A47DBE1B0A1C0F00CD74C2 /* images */ = {
-			isa = PBXGroup;
-			children = (
-				04A47DBF1B0A1C0F00CD74C2 /* 01.jpg */,
-				04A47DC01B0A1C0F00CD74C2 /* 02.jpg */,
-				04A47DC11B0A1C0F00CD74C2 /* 03.jpg */,
-				04A47DC21B0A1C0F00CD74C2 /* 04.jpg */,
-				04A47DC31B0A1C0F00CD74C2 /* 05.jpg */,
-				04A47DC41B0A1C0F00CD74C2 /* 06.jpg */,
-				04A47DC51B0A1C0F00CD74C2 /* 07.jpg */,
-				04A47DC61B0A1C0F00CD74C2 /* 08.jpg */,
-				04A47DC71B0A1C0F00CD74C2 /* 09.jpg */,
-				04A47DC81B0A1C0F00CD74C2 /* 10.jpg */,
-			);
-			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,18 +198,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04A47DD21B0A1C0F00CD74C2 /* 10.jpg in Resources */,
-				04A47DCF1B0A1C0F00CD74C2 /* 07.jpg in Resources */,
-				04A47DCB1B0A1C0F00CD74C2 /* 03.jpg in Resources */,
-				04A47DD01B0A1C0F00CD74C2 /* 08.jpg in Resources */,
-				04A47DCA1B0A1C0F00CD74C2 /* 02.jpg in Resources */,
-				04A47DCD1B0A1C0F00CD74C2 /* 05.jpg in Resources */,
-				04A47DCE1B0A1C0F00CD74C2 /* 06.jpg in Resources */,
-				04A47DD11B0A1C0F00CD74C2 /* 09.jpg in Resources */,
 				04A47D511B0A141700CD74C2 /* Main.storyboard in Resources */,
 				04A47D561B0A141700CD74C2 /* LaunchScreen.xib in Resources */,
-				04A47DCC1B0A1C0F00CD74C2 /* 04.jpg in Resources */,
-				04A47DC91B0A1C0F00CD74C2 /* 01.jpg in Resources */,
 				04A47D531B0A141700CD74C2 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
