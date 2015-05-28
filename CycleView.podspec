@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "CycleView"
-  s.version          = “1.0.1”
+  s.version          = “1.1.0”
   s.summary          = "The view of an infinite loop.一个无线循环的图片轮播器"
   s.description      = <<-DESC
                        An optional longer description of CycleView

@@ -65,6 +65,7 @@ public class PictureCycleController: UICollectionViewController,UICollectionView
         super.viewDidLoad()
         //注册cell
         collectionView!.registerClass(PictureCycleCell.self, forCellWithReuseIdentifier: PictureCycleCellID)
+        timeStart()
     }
     
     public override func viewWillAppear(animated: Bool) {
@@ -72,8 +73,6 @@ public class PictureCycleController: UICollectionViewController,UICollectionView
         // 开始时就定位到第2页
         let indexPath = NSIndexPath(forItem: 1, inSection: 0)
         collectionView!.scrollToItemAtIndexPath(indexPath, atScrollPosition: UICollectionViewScrollPosition.CenteredHorizontally, animated: false)
-        
-        timeStart()
     }
     
     public override func viewDidLayoutSubviews() {

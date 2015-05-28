@@ -4,10 +4,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
     </dependencies>
     <scenes>
-        <!--Item-->
+        <!--常用版-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController automaticallyAdjustsScrollViewInsets="NO" id="vXZ-lx-hvc" customClass="ViewController" customModule="CycleViewDemo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="常用版" automaticallyAdjustsScrollViewInsets="NO" id="vXZ-lx-hvc" customClass="ViewController" customModule="CycleViewDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
@@ -17,7 +17,10 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wPK-ew-Ivl">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="251"/>
+                                <rect key="frame" x="0.0" y="175" width="600" height="250"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="250" id="ggj-Uc-ggR"/>
+                                </constraints>
                                 <connections>
                                     <segue destination="WPv-7C-EEz" kind="embed" id="yrf-2x-ySf"/>
                                 </connections>
@@ -25,13 +28,12 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="wPK-ew-Ivl" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="acg-ZR-OFb"/>
+                            <constraint firstAttribute="centerY" secondItem="wPK-ew-Ivl" secondAttribute="centerY" id="d15-ZN-TLO"/>
                             <constraint firstAttribute="trailing" secondItem="wPK-ew-Ivl" secondAttribute="trailing" id="di0-Zi-eH3"/>
-                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="wPK-ew-Ivl" secondAttribute="bottom" constant="300" id="dxa-HG-MK2"/>
                             <constraint firstItem="wPK-ew-Ivl" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="noh-qg-LF5"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="9up-8E-7NU"/>
+                    <tabBarItem key="tabBarItem" title="常用版" id="9up-8E-7NU"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
@@ -46,7 +48,7 @@
                         <viewControllerLayoutGuide type="bottom" id="wd7-43-v7e"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="MIh-U2-bl9">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="251"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="250"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -89,10 +91,10 @@
             </objects>
             <point key="canvasLocation" x="1869" y="561"/>
         </scene>
-        <!--Item-->
+        <!--特效版-->
         <scene sceneID="ZvT-kg-DBR">
             <objects>
-                <viewController automaticallyAdjustsScrollViewInsets="NO" id="5lG-1e-ffS" customClass="AnimatorViewController" customModule="CycleViewDemo" sceneMemberID="viewController">
+                <viewController title="特效版" automaticallyAdjustsScrollViewInsets="NO" id="5lG-1e-ffS" customClass="AnimatorViewController" customModule="CycleViewDemo" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="tOs-dD-51z"/>
                         <viewControllerLayoutGuide type="bottom" id="ROQ-vX-5qi"/>
@@ -102,7 +104,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="d3M-NW-cym"/>
+                    <tabBarItem key="tabBarItem" title="特效版" id="d3M-NW-cym"/>
                     <toolbarItems/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="a6Z-Eg-6nY" userLabel="First Responder" sceneMemberID="firstResponder"/>
