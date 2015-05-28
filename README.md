@@ -46,7 +46,7 @@ For more information about how to use CocoaPods, I suggest [this tutorial](http:
 ## Usage
 
 ### Swift
-#### Regulu
+#### Regular
 
 ```swift
 import CycleView
