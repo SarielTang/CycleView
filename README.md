@@ -96,3 +96,7 @@ class AnimatorViewController: CycleAnimatorViewController {
         AnimatorImageView!.contentMode = UIViewContentMode.ScaleAspectFit
     }
 ```
+
+##Screenshot
+![image](https://github.com/SarielTang/CycleView/blob/master/ScreenShot/CycleViewIntroduce1.gif)
+![image](https://github.com/SarielTang/CycleView/blob/master/ScreenShot/CycleViewIntroduce2.gif)
