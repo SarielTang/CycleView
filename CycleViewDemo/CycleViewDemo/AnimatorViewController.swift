@@ -22,8 +22,8 @@ class AnimatorViewController: CycleAnimatorViewController {
         }
 //        println(arrayM)
         AnimatorImageList = arrayM;
-        AnimationType = SRTransitionAnimateType.CUBE.rawValue
-        AnimatorImageView!.contentMode = UIViewContentMode.ScaleAspectFit
+        AnimationType = SRTransitionAnimateType.SUCKEFFECT.rawValue
+        AnimatorImageView!.contentMode = UIViewContentMode.ScaleAspectFill
     }
 
 }
