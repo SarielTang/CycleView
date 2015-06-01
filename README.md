@@ -5,8 +5,8 @@
 
 ## Requirements
 
-* iOS 8.0+ 
-* Xcode 6.3
+* iOS 7.0+ 
+* Xcode 6.3.1
 
 ## Installation
 
@@ -98,5 +98,15 @@ class AnimatorViewController: CycleAnimatorViewController {
 ```
 
 ##Screenshot
+
 ![image](https://github.com/SarielTang/CycleView/blob/master/ScreenShot/CycleViewIntroduce1.gif)
 ![image](https://github.com/SarielTang/CycleView/blob/master/ScreenShot/CycleViewIntroduce2.gif)
+![image](https://github.com/SarielTang/CycleView/blob/master/ScreenShot/CycleViewIntroduce3.gif)
+![image](https://github.com/SarielTang/CycleView/blob/master/ScreenShot/CycleViewIntroduce4.gif)
+![image](https://github.com/SarielTang/CycleView/blob/master/ScreenShot/CycleViewIntroduce5.gif)
+![image](https://github.com/SarielTang/CycleView/blob/master/ScreenShot/CycleViewIntroduce6.gif)
+![image](https://github.com/SarielTang/CycleView/blob/master/ScreenShot/CycleViewIntroduce7.gif)
+![image](https://github.com/SarielTang/CycleView/blob/master/ScreenShot/CycleViewIntroduce8.gif)
+![image](https://github.com/SarielTang/CycleView/blob/master/ScreenShot/CycleViewIntroduce9.gif)
+![image](https://github.com/SarielTang/CycleView/blob/master/ScreenShot/CycleViewIntroduce10.gif)
+
