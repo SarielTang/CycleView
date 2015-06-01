@@ -99,14 +99,53 @@ class AnimatorViewController: CycleAnimatorViewController {
 
 ##Screenshot
 
-![image](https://github.com/SarielTang/CycleView/blob/master/ScreenShot/CycleViewIntroduce1.gif)
-![image](https://github.com/SarielTang/CycleView/blob/master/ScreenShot/CycleViewIntroduce2.gif)
-![image](https://github.com/SarielTang/CycleView/blob/master/ScreenShot/CycleViewIntroduce3.gif)
-![image](https://github.com/SarielTang/CycleView/blob/master/ScreenShot/CycleViewIntroduce4.gif)
-![image](https://github.com/SarielTang/CycleView/blob/master/ScreenShot/CycleViewIntroduce5.gif)
-![image](https://github.com/SarielTang/CycleView/blob/master/ScreenShot/CycleViewIntroduce6.gif)
-![image](https://github.com/SarielTang/CycleView/blob/master/ScreenShot/CycleViewIntroduce7.gif)
-![image](https://github.com/SarielTang/CycleView/blob/master/ScreenShot/CycleViewIntroduce8.gif)
-![image](https://github.com/SarielTang/CycleView/blob/master/ScreenShot/CycleViewIntroduce9.gif)
-![image](https://github.com/SarielTang/CycleView/blob/master/ScreenShot/CycleViewIntroduce10.gif)
+```
+常规图片轮播器
+```
+* ![image](https://github.com/SarielTang/CycleView/blob/master/ScreenShot/CycleViewIntroduce1.gif)
+
+```
+立体旋转效果
+```
+* ![image](https://github.com/SarielTang/CycleView/blob/master/ScreenShot/CycleViewIntroduce2.gif)
+
+```
+淡入淡出效果
+```
+* ![image](https://github.com/SarielTang/CycleView/blob/master/ScreenShot/CycleViewIntroduce3.gif)
+
+```
+平面翻转效果
+```
+* ![image](https://github.com/SarielTang/CycleView/blob/master/ScreenShot/CycleViewIntroduce4.gif)
+
+```
+翻页效果
+```
+* ![image](https://github.com/SarielTang/CycleView/blob/master/ScreenShot/CycleViewIntroduce5.gif)
+
+```
+反向翻页效果
+```
+* ![image](https://github.com/SarielTang/CycleView/blob/master/ScreenShot/CycleViewIntroduce6.gif)
+
+```
+横向推出效果
+```
+* ![image](https://github.com/SarielTang/CycleView/blob/master/ScreenShot/CycleViewIntroduce7.gif)
+
+```
+从上层抽出效果
+```
+* ![image](https://github.com/SarielTang/CycleView/blob/master/ScreenShot/CycleViewIntroduce8.gif)
+
+```
+水滴效果
+```
+* ![image](https://github.com/SarielTang/CycleView/blob/master/ScreenShot/CycleViewIntroduce9.gif)
+
+```
+从角落收起效果
+```
+* ![image](https://github.com/SarielTang/CycleView/blob/master/ScreenShot/CycleViewIntroduce10.gif)
 
