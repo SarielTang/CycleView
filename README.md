@@ -73,7 +73,7 @@ class className : PictureCycleController{
 ```
 
 #### Special
-```
+```swift
 import CycleView
 
 class AnimatorViewController: CycleAnimatorViewController {
@@ -95,6 +95,7 @@ class AnimatorViewController: CycleAnimatorViewController {
         //可以设置图片填充模式
         AnimatorImageView!.contentMode = UIViewContentMode.ScaleAspectFit
     }
+}
 ```
 
 ##Screenshot
