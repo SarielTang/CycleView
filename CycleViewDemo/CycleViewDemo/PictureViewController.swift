@@ -26,6 +26,7 @@ class PictureViewController: PictureCycleController {
 //            println(arrayM)
         }
         CycleImageList = arrayM;
+        NSLog("")
     }
     
 }
