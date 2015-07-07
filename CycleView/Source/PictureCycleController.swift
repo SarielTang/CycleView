@@ -15,7 +15,7 @@ public class PictureCycleController: UICollectionViewController,UICollectionView
     //当前图片索引
     var currentIndex: Int = 0
     //记录当前Cell的索引
-    var cellIndex: Int = 0
+//    var cellIndex: Int = 0
     var cycleTimer :NSTimer?
     
     public var CycleImageList = [UIImage]()
@@ -88,7 +88,7 @@ public class PictureCycleController: UICollectionViewController,UICollectionView
         let cell = collectionView.dequeueReusableCellWithReuseIdentifier(PictureCycleCellID, forIndexPath: indexPath) as! PictureCycleCell
         
         //Config Cell...
-        cellIndex = indexPath.item
+//        cellIndex = indexPath.item
         let index = (indexPath.item - 1 + CycleImageList.count + currentIndex) % CycleImageList.count
         cell.image = CycleImageList[index]
         
@@ -126,7 +126,7 @@ public class PictureCycleController: UICollectionViewController,UICollectionView
         runloop.addTimer(timer, forMode: NSRunLoopCommonModes)
     }
     func nextImage() {
-        let indexPath = NSIndexPath(forItem: ++cellIndex, inSection: 0)
+        let indexPath = NSIndexPath(forItem: 2, inSection: 0)
         collectionView!.scrollToItemAtIndexPath(indexPath, atScrollPosition: UICollectionViewScrollPosition.CenteredHorizontally, animated: true)
     }
     
