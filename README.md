@@ -98,7 +98,7 @@ class AnimatorViewController: CycleAnimatorViewController {
 }
 ```
 
-##Screenshot
+## Screenshot
 
 ```
 常规图片轮播器
